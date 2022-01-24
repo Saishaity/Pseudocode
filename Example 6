@@ -1,0 +1,32 @@
+input A
+input B
+input C
+input D
+input E
+AVERAGE = (A+B+C+D+E)/5
+MAX = A
+MIN = A
+if MAX<B then
+    MAX=B
+else if MAX<C then
+    MAX=C
+else if MAX<D then
+    MAX=D
+else if MAX<E then
+    MAX=E
+end if
+if MIN>B then
+    MIN=B
+else if MIN>C then
+    MIN=C
+else if MIN>D then
+    MIN=D
+else if MIN>E then
+    MIN=E
+end if
+output "Average: "
+output AVERAGE
+output "Minimum: "
+output MIN
+output "Maximum: "
+output MAX
