@@ -1,0 +1,27 @@
+input A
+input B
+input C
+MIN = A
+MID = A
+MAX = A
+if B<MIN then
+    MID = MIN
+    MIN = B
+else if B>MAX then
+    MID = MAX
+    MAX = B
+else
+    MID = B
+end if
+if C<MIN then
+    MID = MIN
+    MIN = C
+else if C>MAX then
+    MID = MAX
+    MAX = C
+else
+    MID = C
+end if
+output MIN
+output MID
+output MAX
